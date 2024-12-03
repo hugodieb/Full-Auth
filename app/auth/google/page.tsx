@@ -3,5 +3,5 @@ export default function Page() {
     <main>
       <h1>Google</h1>
     </main>
-  )
+  );
 }

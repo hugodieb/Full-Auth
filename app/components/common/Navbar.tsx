@@ -3,5 +3,5 @@ export default function Navbar() {
     <nav>
       <h1>Navbar</h1>
     </nav>
-  )
+  );
 }

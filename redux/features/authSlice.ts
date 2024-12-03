@@ -8,23 +8,23 @@ interface AuthState {
 const initialState = {
   isAuthenticated: false,
   isLoading: true,
-} as AuthState
+} as AuthState;
 
 const authSlice = createSlice({
   name: 'auth',
   initialState,
   reducers: {
     setAuth: state => {
-      state.isAuthenticated = true
+      state.isAuthenticated = true;
     },
     logout: state => {
-      state.isAuthenticated = false
+      state.isAuthenticated = false;
     },
     finishInitialLoad: state => {
-      state.isLoading = false
+      state.isLoading = false;
     }
   }
-})
+});
 
-export const { setAuth, logout, finishInitialLoad } = authSlice.actions
-export default authSlice.reducer
+export const { setAuth, logout, finishInitialLoad } = authSlice.actions;
+export default authSlice.reducer;

@@ -3,5 +3,5 @@ export default function Page() {
     <main>
       <h1>Set new password</h1>
     </main>
-  )
+  );
 }
